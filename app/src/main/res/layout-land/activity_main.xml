@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="co.ui_ux.singlescreenapp.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/mainView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/littlebritainout2" />
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:id="@+id/mainLogo"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp" />
+
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/mainLogo">
+    <LinearLayout
+        android:id="@+id/infoLayout"
+        android:layout_below="@id/mainLogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical" >
+        <TextView
+            style="@style/titleLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Infos" />
+        <TextView
+            style="@style/infoLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="2dp"
+            android:text="Location" />
+        <TextView
+            style="@style/infoLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="12 Boulevard des Brotteaux, 69006 Lyon" />
+
+        <TextView
+            style="@style/infoLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="2dp"
+            android:text="Contact" />
+        <TextView
+            style="@style/infoLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="chris@littlebritain.fr" />
+        <TextView
+            style="@style/infoLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="2dp"
+            android:text="Hours" />
+        <TextView
+            style="@style/infoLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="lundi 10:00–19:00 mardi 10:00–19:00 mercredi 10:00–19:00 jeudi 10:00–19:00 vendredi 10:00–19:00 samedi 10:00–19:00 dimanche	Fermé" />
+
+        <TextView
+            style="@style/titleLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details" />
+        <TextView
+            style="@style/infoLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="2dp"
+            android:text="Products" />
+        <TextView
+            style="@style/infoLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="atomic fireballs, baby ruth, bacos, baked beans, candy bars, peanut butter, big red, bisquick, cinnamon candy and gum, brownies, butterfinger, candy canes, cheerios, cookies, cheerios, dr pepper, egg nog, fluff, franks red hot, froot loops, goldfish, grits, goober grape, hamburger helper, jello shots, kisses, lawrys, lemon heads, lucky charms, mac and cheese, marshmallows, molasses, mountain dew, molly mc butter, muffin mix, frosting and icing, old bay, cookies N cream, oatmeal, pa yday, pickles, pop-tarts, pop corn, pancake mix and syrup, red hots, reese's cups, refried beans, relish, rotel, root beer, salad dressing, barbecue sauce, cranberry sauce, shortening, corn syrup, tootsie, twizzlers, beef jerky, wonka nerds, yellow mustard" />
+
+        <TextView
+            style="@style/infoLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="2dp"
+            android:text="Events" />
+        <TextView
+            style="@style/infoLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="25dp"
+            android:text="Coming soon..." />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
